@@ -28,6 +28,10 @@ cors_domains =
 [file_manager]
 enable_object_processing = True
 
+[spoolman]
+server = http://192.168.178.57:7912
+sync_rate = 5
+
 [update_manager]
 channel = dev
 refresh_interval = 168
